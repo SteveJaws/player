@@ -2,7 +2,7 @@ import pygame
 from player import Player
 
 pygame.init()
-screen = pygame.display.set_mode((1920, 1080), pygame.FULLSCREEN)
+screen = pygame.display.set_mode((1920, 1080))
 clock = pygame.time.Clock()
 dt = 0
 running = True
